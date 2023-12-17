@@ -12,6 +12,9 @@ function trailingZeros(n) {
 		if(fac[i]==""){
 			count++;
 		}
+		else if(fac[i]!=""){
+			count = 0;
+		}
 	}
 	
 	return count;
